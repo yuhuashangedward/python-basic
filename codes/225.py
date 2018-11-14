@@ -4,10 +4,10 @@
 class Person:
     def __init__(self,name):
         self.name = name
-        print self.name
+        print(self.name)
 
     def __work(self,salary):
-        print "%s salary is: %d"%(self.name,salary)
+        print("%s salary is: %d"%(self.name,salary))
 
     def worker(self):
         self.__work(500)

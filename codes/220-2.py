@@ -3,19 +3,19 @@
 
 class A:
     def __init__(self):
-        print "aaa"
+        print("aaa")
     def amethod(self):
-        print "method a"
+        print("method a")
 
 class B(A):
     def __init__(self):
-        print "bbb"
+        print("bbb")
 
 
 if __name__=="__main__":
-    print "A--->"
+    print("A--->")
     a = A()
     a.amethod()
-    print "B--->"
+    print("B--->")
     b = B()
     b.amethod()

@@ -24,8 +24,8 @@ laoqi = Person("LaoQi")
 info = Person("qiwsir",lang="python",website="qiwsir.github.io")
 
 #print "laoqi.name=",laoqi.name
-print "Author name from laoqi:",laoqi.author("China")
-print "Author name from info:",info.author("Suzhou")
+print("Author name from laoqi:",laoqi.author("China"))
+print("Author name from info:",info.author("Suzhou"))
 #print "info.name=",info.name
 #print "-------"
 #print "laoqi.lang=",laoqi.lang

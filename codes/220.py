@@ -19,8 +19,8 @@ class Pythoner(Programmer):
 
 if __name__=="__main__":
     writer = Pythoner("qiwsir","qiwsir@gmail.com")
-    print "name=",writer.name
-    print "lang=",writer.lang
-    print "email=",writer.email
-    print "system=",writer.system
-    print "website=",writer.website
+    print("name=",writer.name)
+    print("lang=",writer.lang)
+    print("email=",writer.email)
+    print("system=",writer.system)
+    print("website=",writer.website)
